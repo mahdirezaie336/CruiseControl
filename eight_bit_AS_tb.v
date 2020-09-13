@@ -4,15 +4,15 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   16:18:00 09/13/2020
-// Design Name:   eight_bit_comparator
-// Module Name:   C:/Users/Rezaie/Xilinx-workspace/LabProject/eight_bit_comparator_tb.v
+// Create Date:   22:33:47 09/13/2020
+// Design Name:   eight_bit_adder_substractor
+// Module Name:   C:/Users/Rezaie/Xilinx-workspace/LabProject/eight_bit_AS_tb.v
 // Project Name:  LabProject
 // Target Device:  
 // Tool versions:  
 // Description: 
 //
-// Verilog Test Fixture created by ISE for module: eight_bit_comparator
+// Verilog Test Fixture created by ISE for module: eight_bit_adder_substractor
 //
 // Dependencies:
 // 
@@ -22,41 +22,55 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module eight_bit_comparator_tb;
+module eight_bit_AS_tb;
 
 	// Inputs
 	reg [0:7] a;
 	reg [0:7] b;
+	reg sel;
 	reg enable;
 
 	// Outputs
-	wire G;
-	wire Eq;
-	wire L;
+	wire [0:7] s;
+	wire cout;
 
 	// Instantiate the Unit Under Test (UUT)
-	eight_bit_comparator uut (
+	eight_bit_adder_substractor uut (
 		.a(a), 
 		.b(b), 
-		.G(G), 
-		.Eq(Eq), 
-		.L(L)
+		.sel(sel), 
+		.enable(enable),
+		.s(s), 
+		.cout(cout)
 	);
-	
-	integer i = 0, j = 0;
+
+	integer i,j;
 	initial begin
 		// Initialize Inputs
 		a = 0;
 		b = 0;
+		sel = 0;
 		enable = 1;
 
 		// Wait 100 ns for global reset to finish
 		#100;
+      for(i = 253; i < 255; i=i+1) begin
+			for(j = 2; j < 5; j=j+1) begin
+				{a} = i;
+				{b} = j;
+				#100;
+			end
+		end
 		
-		for(i = 6; i < 11; i=i+1) begin
-			a = i;
-			for(j = 6; j < 11; j=j+1) begin
-				b = j;
+		a = 0;
+		b = 0;
+		sel = 1;
+		#500;
+		
+		for(i = 8; i < 11; i=i+1) begin
+			for(j = 2; j < 5; j=j+1) begin
+				{a} = i;
+				{b} = j;
 				#100;
 			end
 		end
