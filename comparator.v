@@ -21,16 +21,21 @@
 module comparator(
     input a,
     input b,
+	 input enable,
     output G,
     output Eq,
     output L
     );
 	
-	wire nota,notb;
-	not #(5) n0(nota,a), 
-				n1(notb,b);
-	and #(5) a0(G,a,notb),
-				a1(L,nota,b);
-	xnor #(10) x0(Eq,a,b);
+	wire nota,notb,w0,w1,w2;
+	not n0(nota,a), 
+		 n1(notb,b);
+	and a0(w0,a,notb),
+				a1(w1,nota,b),
+				a2(G,w0,enable),
+				a3(Eq,w2,enable),
+				a4(L,w1,enable);
+	xnor x0(w2,a,b);
+	
 	
 endmodule

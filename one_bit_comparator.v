@@ -30,9 +30,9 @@ module one_bit_comparator(
     );
 	
 	wire w0,w1,w2;
-	comparator c0(a,b,w0,w1,w2);
-	or #(5) o0(G,w0,in_g);
-	or #(5) o1(Eq,w1,in_eq);
-	or #(5) o2(L,w2,in_l);
+	comparator c0(a,b,in_eq,w0,Eq,w2);
+	or o0(G,w0,in_g);
+	//and a0(Eq,w1,in_eq);
+	or o1(L,w2,in_l);
 
 endmodule

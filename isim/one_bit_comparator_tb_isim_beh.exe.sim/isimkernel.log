@@ -1,0 +1,28 @@
+Command line:
+   one_bit_comparator_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  10049
+
+Sun Sep 13 21:15:53 2020
+
+
+ Elaboration Time: 0.0936 sec
+
+ Current Memory Usage: 671.15 Meg
+
+ Total Signals          : 38
+ Total Nets             : 29
+ Total Signal Drivers   : 20
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 22
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 146
+
+ Total Simulation Time: 0.249601 sec
+
+ Current Memory Usage: 671.15 Meg
+
+Sun Sep 13 21:16:21 2020
+

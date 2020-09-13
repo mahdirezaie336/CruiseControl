@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Rezaie/Xilinx-workspace/LabProject/eight_bit_comparator_tb_isim_beh.exe" -prj "C:/Users/Rezaie/Xilinx-workspace/LabProject/eight_bit_comparator_tb_beh.prj" "work.eight_bit_comparator_tb" "work.glbl" 
