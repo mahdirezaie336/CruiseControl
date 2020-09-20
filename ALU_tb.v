@@ -48,9 +48,9 @@ module ALU_tb;
 
 	initial begin
 		// Initialize Inputs
-		default_speed = 220;
-		current_speed = 220;
-		mode = 3;
+		default_speed = 50;
+		current_speed = 70;
+		mode = 1;
 
 		// Wait 100 ns for global reset to finish
 		#100;

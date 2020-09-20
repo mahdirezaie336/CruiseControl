@@ -22,8 +22,9 @@
 #define alloca _alloca
 #endif
 static const char *ng0 = "C:/Users/Rezaie/Xilinx-workspace/LabProject/ALU_tb.v";
-static int ng1[] = {220, 0};
-static int ng2[] = {3, 0};
+static int ng1[] = {50, 0};
+static int ng2[] = {70, 0};
+static int ng3[] = {1, 0};
 
 
 
@@ -47,11 +48,11 @@ LAB4:    xsi_set_current_line(51, ng0);
     t3 = (t0 + 1928);
     xsi_vlogvar_assign_value(t3, t2, 0, 0, 8);
     xsi_set_current_line(52, ng0);
-    t2 = ((char*)((ng1)));
+    t2 = ((char*)((ng2)));
     t3 = (t0 + 2088);
     xsi_vlogvar_assign_value(t3, t2, 0, 0, 8);
     xsi_set_current_line(53, ng0);
-    t2 = ((char*)((ng2)));
+    t2 = ((char*)((ng3)));
     t3 = (t0 + 2248);
     xsi_vlogvar_assign_value(t3, t2, 0, 0, 2);
     xsi_set_current_line(56, ng0);

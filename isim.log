@@ -1,10 +1,7 @@
 ISim log file
-Running: C:\Users\Rezaie\Xilinx-workspace\LabProject\ALU_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Rezaie/Xilinx-workspace/LabProject/ALU_tb_isim_beh.wdb 
+Running: C:\Users\Rezaie\Xilinx-workspace\LabProject\three_bit_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Rezaie/Xilinx-workspace/LabProject/three_bit_test_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
-WARNING:  For instance c0/c7/, width 1 of formal port in_g is not equal to width 32 of actual constant.
-WARNING:  For instance c0/c7/, width 1 of formal port in_l is not equal to width 32 of actual constant.
-WARNING:  For instance uut/as0/, width 8 of formal port b is not equal to width 32 of actual constant.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
