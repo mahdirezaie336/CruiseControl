@@ -4,7 +4,7 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   23:05:58 09/20/2020
+// Create Date:   07:51:39 09/21/2020
 // Design Name:   three_bit_counter
 // Module Name:   C:/Users/Rezaie/Xilinx-workspace/LabProject/three_bit_test.v
 // Project Name:  LabProject
@@ -30,6 +30,7 @@ module three_bit_test;
 	reg clk;
 	reg clear;
 	reg preset;
+	reg [2:0] load;
 
 	// Outputs
 	wire [2:0] out;
@@ -39,19 +40,25 @@ module three_bit_test;
 		.enable(enable), 
 		.mode(mode), 
 		.clk(clk), 
-		.clear(clear),
-		.preset(preset),
+		.clear(clear), 
+		.preset(preset), 
+		.load(load), 
 		.out(out)
 	);
-
+	
+	integer i;
 	initial begin
 		// Initialize Inputs
-		enable = 1;
-		mode = 0;
+		enable = 0;
+		mode = 1;
 		clear = 0;
+		load = 0;
 		preset = 1;
 		#100;
 		preset = 0;
+		#100;
+		for(i = 0; i < 8; i=i+1)
+			#100 load = i;
         
 		// Add stimulus here
 
@@ -64,7 +71,6 @@ module three_bit_test;
 		repeat(100) #50 clk = ~clk;
 	
 	end
-	
       
 endmodule
 

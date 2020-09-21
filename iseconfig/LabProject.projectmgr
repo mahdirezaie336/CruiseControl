@@ -37,13 +37,16 @@
          <ClosedNode>/eight_bit_comparator C:|Users|Rezaie|Xilinx-workspace|LabProject|eight_bit_comparator.v/c6 - one_bit_comparator</ClosedNode>
          <ClosedNode>/full_adder C:|Users|Rezaie|Xilinx-workspace|LabProject|full_adder.v</ClosedNode>
          <ClosedNode>/one_bit_comparator C:|Users|Rezaie|Xilinx-workspace|LabProject|one_bit_comparator.v</ClosedNode>
+         <ClosedNode>/three_bit_counter C:|Users|Rezaie|Xilinx-workspace|LabProject|seven_bit_counter.v</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>three_bit_counter (C:/Users/Rezaie/Xilinx-workspace/LabProject/seven_bit_counter.v)</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000094000000020000000000000000000000000200000064ffffffff000000810000000300000002000000940000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000112000000020000000000000000000000000200000064ffffffff000000810000000300000002000001120000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>D_FF (C:/Users/Rezaie/Xilinx-workspace/LabProject/D_FF.v)</CurrentItem>
+      <CurrentItem>three_bit_counter (C:/Users/Rezaie/Xilinx-workspace/LabProject/seven_bit_counter.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -66,7 +69,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000223000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001570000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000212000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001460000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>eight_bit_adder_substractor.v</CurrentItem>
    </ItemView>
@@ -98,6 +101,7 @@
          <ClosedNode>/ALU_tb C:|Users|Rezaie|Xilinx-workspace|LabProject|ALU_tb.v/uut - ALU/c0 - eight_bit_comparator/c7 - one_bit_comparator</ClosedNode>
          <ClosedNode>/D_FF_tb C:|Users|Rezaie|Xilinx-workspace|LabProject|D_FF_tb.v</ClosedNode>
          <ClosedNode>/comparator_tb C:|Users|Rezaie|Xilinx-workspace|LabProject|comparator_tb.v</ClosedNode>
+         <ClosedNode>/counter_test C:|Users|Rezaie|Xilinx-workspace|LabProject|counter_test.v</ClosedNode>
          <ClosedNode>/eight_bit_AS_tb C:|Users|Rezaie|Xilinx-workspace|LabProject|eight_bit_AS_tb.v</ClosedNode>
          <ClosedNode>/eight_bit_adder_substractor C:|Users|Rezaie|Xilinx-workspace|LabProject|eight_bit_adder_substractor.v</ClosedNode>
          <ClosedNode>/eight_bit_adder_substractor C:|Users|Rezaie|Xilinx-workspace|LabProject|eight_bit_adder_substractor.v/g0 - full_adder_substractor/g0 - full_adder</ClosedNode>
@@ -117,16 +121,18 @@
          <ClosedNode>/eight_bit_comparator_tb C:|Users|Rezaie|Xilinx-workspace|LabProject|eight_bit_comparator_tb.v/uut - eight_bit_comparator/c4 - one_bit_comparator</ClosedNode>
          <ClosedNode>/eight_bit_comparator_tb C:|Users|Rezaie|Xilinx-workspace|LabProject|eight_bit_comparator_tb.v/uut - eight_bit_comparator/c5 - one_bit_comparator</ClosedNode>
          <ClosedNode>/eight_bit_comparator_tb C:|Users|Rezaie|Xilinx-workspace|LabProject|eight_bit_comparator_tb.v/uut - eight_bit_comparator/c6 - one_bit_comparator</ClosedNode>
+         <ClosedNode>/jk_test C:|Users|Rezaie|Xilinx-workspace|LabProject|jk_test.v</ClosedNode>
          <ClosedNode>/one_bit_comparator_tb C:|Users|Rezaie|Xilinx-workspace|LabProject|one_bit_comparator_tb.v</ClosedNode>
+         <ClosedNode>/three_bit_test C:|Users|Rezaie|Xilinx-workspace|LabProject|three_bit_test.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>D_FF_tb (C:/Users/Rezaie/Xilinx-workspace/LabProject/D_FF_tb.v)</SelectedItem>
+         <SelectedItem>three_bit_test (C:/Users/Rezaie/Xilinx-workspace/LabProject/three_bit_test.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000015a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000015a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>D_FF_tb (C:/Users/Rezaie/Xilinx-workspace/LabProject/D_FF_tb.v)</CurrentItem>
+      <CurrentItem>three_bit_test (C:/Users/Rezaie/Xilinx-workspace/LabProject/three_bit_test.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

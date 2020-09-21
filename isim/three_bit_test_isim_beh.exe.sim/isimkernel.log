@@ -2,27 +2,27 @@ Command line:
    three_bit_test_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  1316
+     -socket  8109
 
-Sun Sep 20 23:36:17 2020
+Mon Sep 21 08:00:52 2020
 
 
- Elaboration Time: 0.078001 sec
+ Elaboration Time: 0.0936 sec
 
  Current Memory Usage: 671.154 Meg
 
- Total Signals          : 58
- Total Nets             : 41
- Total Signal Drivers   : 33
+ Total Signals          : 75
+ Total Nets             : 60
+ Total Signal Drivers   : 46
  Total Blocks           : 6
  Total Primitive Blocks : 4
- Total Processes        : 39
- Total Traceable Variables  : 26
- Total Scalar Nets and Variables : 129
+ Total Processes        : 52
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 183
 
- Total Simulation Time: 0.936006 sec
+ Total Simulation Time: 0.468003 sec
 
  Current Memory Usage: 671.154 Meg
 
-Sun Sep 20 23:36:43 2020
+Mon Sep 21 08:01:06 2020
 
