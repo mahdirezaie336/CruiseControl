@@ -1,22 +1,22 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Rezaie/Xilinx-workspace/LabProject/three_bit_test_isim_beh.exe -prj C:/Users/Rezaie/Xilinx-workspace/LabProject/three_bit_test_beh.prj work.three_bit_test work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Rezaie/Xilinx-workspace/LabProject/parallel_register_tb_isim_beh.exe -prj C:/Users/Rezaie/Xilinx-workspace/LabProject/parallel_register_tb_beh.prj work.parallel_register_tb work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 2
 Turning on mult-threading, number of parallel sub-compilation jobs: 4 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/Rezaie/Xilinx-workspace/LabProject/JK_FF.v" into library work
-WARNING:HDLCompiler:751 - "C:/Users/Rezaie/Xilinx-workspace/LabProject/JK_FF.v" Line 32: Redeclaration of ansi port q is not allowed
-Analyzing Verilog file "C:/Users/Rezaie/Xilinx-workspace/LabProject/seven_bit_counter.v" into library work
-Analyzing Verilog file "C:/Users/Rezaie/Xilinx-workspace/LabProject/three_bit_test.v" into library work
+Analyzing Verilog file "C:/Users/Rezaie/Xilinx-workspace/LabProject/D_FF.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Rezaie/Xilinx-workspace/LabProject/D_FF.v" Line 31: Redeclaration of ansi port q is not allowed
+Analyzing Verilog file "C:/Users/Rezaie/Xilinx-workspace/LabProject/eight_bit_parallel_register.v" into library work
+Analyzing Verilog file "C:/Users/Rezaie/Xilinx-workspace/LabProject/parallel_register_tb.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Compiling module JK_FF
-Compiling module three_bit_counter
-Compiling module three_bit_test
+Compiling module D_FF
+Compiling module eight_bit_parallel_register
+Compiling module parallel_register_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
+Waiting for 3 sub-compilation(s) to finish...
 Compiled 4 Verilog Units
-Built simulation executable C:/Users/Rezaie/Xilinx-workspace/LabProject/three_bit_test_isim_beh.exe
-Fuse Memory Usage: 27456 KB
+Built simulation executable C:/Users/Rezaie/Xilinx-workspace/LabProject/parallel_register_tb_isim_beh.exe
+Fuse Memory Usage: 27188 KB
 Fuse CPU Usage: 514 ms

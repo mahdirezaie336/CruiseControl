@@ -21,14 +21,22 @@
 module D_FF(
     input d,
     input clk,
+	 input clear,
+	 input preset,
     output q,
     output q_not
     );
 	
-	reg q,q_not;
+	assign q_not = ~ q;
+	reg q;
 	always @(posedge clk) begin
-		q = d;
-		q_not = ~q;
+		if(clear)
+			q = 0;
+		else
+			if(preset)
+				q = 1;
+			else
+				q = d;
 	end
 
 endmodule

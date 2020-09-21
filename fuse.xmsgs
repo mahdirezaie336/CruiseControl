@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Rezaie/Xilinx-workspace/LabProject/JK_FF.v" Line 32: Redeclaration of ansi port <arg fmt="%s" index="1">q</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Rezaie/Xilinx-workspace/LabProject/D_FF.v" Line 31: Redeclaration of ansi port <arg fmt="%s" index="1">q</arg> is not allowed
 </msg>
 
 </messages>

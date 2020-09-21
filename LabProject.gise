@@ -34,9 +34,10 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="jk_test_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="one_bit_comparator_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="three_bit_test_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="parallel_register_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="parallel_register_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="parallel_register_tb_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="three_bit_test_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="three_bit_test_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
   </files>
 
@@ -45,7 +46,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1600662647" xil_pn:in_ck="7295534697479475876" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1600662646">
+    <transform xil_pn:end_ts="1600666735" xil_pn:in_ck="598403201069369457" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1600666735">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -60,20 +61,22 @@
       <outfile xil_pn:name="eight_bit_adder_substractor.v"/>
       <outfile xil_pn:name="eight_bit_comparator.v"/>
       <outfile xil_pn:name="eight_bit_comparator_tb.v"/>
+      <outfile xil_pn:name="eight_bit_parallel_register.v"/>
       <outfile xil_pn:name="full_adder.v"/>
       <outfile xil_pn:name="full_adder_substractor.v"/>
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="jk_test.v"/>
       <outfile xil_pn:name="one_bit_comparator.v"/>
       <outfile xil_pn:name="one_bit_comparator_tb.v"/>
+      <outfile xil_pn:name="parallel_register_tb.v"/>
       <outfile xil_pn:name="seven_bit_counter.v"/>
       <outfile xil_pn:name="three_bit_test.v"/>
     </transform>
-    <transform xil_pn:end_ts="1600630599" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2014813389725584916" xil_pn:start_ts="1600630599">
+    <transform xil_pn:end_ts="1600666688" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7931430764146734179" xil_pn:start_ts="1600666688">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1600630599" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8145401179665170934" xil_pn:start_ts="1600630599">
+    <transform xil_pn:end_ts="1600666688" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-189318058846803653" xil_pn:start_ts="1600666688">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -81,7 +84,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1600662647" xil_pn:in_ck="7295534697479475876" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1600662647">
+    <transform xil_pn:end_ts="1600666735" xil_pn:in_ck="598403201069369457" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1600666735">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -96,31 +99,33 @@
       <outfile xil_pn:name="eight_bit_adder_substractor.v"/>
       <outfile xil_pn:name="eight_bit_comparator.v"/>
       <outfile xil_pn:name="eight_bit_comparator_tb.v"/>
+      <outfile xil_pn:name="eight_bit_parallel_register.v"/>
       <outfile xil_pn:name="full_adder.v"/>
       <outfile xil_pn:name="full_adder_substractor.v"/>
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="jk_test.v"/>
       <outfile xil_pn:name="one_bit_comparator.v"/>
       <outfile xil_pn:name="one_bit_comparator_tb.v"/>
+      <outfile xil_pn:name="parallel_register_tb.v"/>
       <outfile xil_pn:name="seven_bit_counter.v"/>
       <outfile xil_pn:name="three_bit_test.v"/>
     </transform>
-    <transform xil_pn:end_ts="1600662650" xil_pn:in_ck="7295534697479475876" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3765617186836729401" xil_pn:start_ts="1600662647">
+    <transform xil_pn:end_ts="1600666739" xil_pn:in_ck="598403201069369457" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-588165761139137463" xil_pn:start_ts="1600666735">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="three_bit_test_beh.prj"/>
-      <outfile xil_pn:name="three_bit_test_isim_beh.exe"/>
+      <outfile xil_pn:name="parallel_register_tb_beh.prj"/>
+      <outfile xil_pn:name="parallel_register_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1600662650" xil_pn:in_ck="6811686847518255861" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="9143255843136979853" xil_pn:start_ts="1600662650">
+    <transform xil_pn:end_ts="1600666739" xil_pn:in_ck="5618371797591421962" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2487041762440150033" xil_pn:start_ts="1600666739">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="three_bit_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="parallel_register_tb_isim_beh.wdb"/>
     </transform>
   </transforms>
 

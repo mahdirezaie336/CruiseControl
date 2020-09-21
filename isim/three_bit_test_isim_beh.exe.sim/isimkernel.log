@@ -2,9 +2,9 @@ Command line:
    three_bit_test_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  8109
+     -socket  8350
 
-Mon Sep 21 08:00:52 2020
+Mon Sep 21 09:07:47 2020
 
 
  Elaboration Time: 0.0936 sec
@@ -20,9 +20,9 @@ Mon Sep 21 08:00:52 2020
  Total Traceable Variables  : 28
  Total Scalar Nets and Variables : 183
 
- Total Simulation Time: 0.468003 sec
+ Total Simulation Time: 0.1248 sec
 
  Current Memory Usage: 671.154 Meg
 
-Mon Sep 21 08:01:06 2020
+Mon Sep 21 09:08:04 2020
 

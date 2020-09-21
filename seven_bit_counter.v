@@ -66,13 +66,6 @@ module three_bit_counter(
 		 and_lkc(wkc3,notenable,mode,notload0);
 	
 	
-	
-	//or or0(wjb3,wjb0,wjb1),
-	//	or1(wkb3,wkb0,wkb1),
-	//	or2(wjc4,wjc0,wjc1,wjc2),
-	//	or3(wkc4,wkc0,wkc1,wkc2);
-		
-		
 	or or_loadja(ja,wja0,wja1),
 		or_loadka(ka,wka0,wka1),
 		or_loadjb(jb,wjb0,wjb1,wjb2),
