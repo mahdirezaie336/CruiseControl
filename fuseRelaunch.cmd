@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Rezaie/Xilinx-workspace/LabProject/parallel_register_tb_isim_beh.exe" -prj "C:/Users/Rezaie/Xilinx-workspace/LabProject/parallel_register_tb_beh.prj" "work.parallel_register_tb" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Rezaie/Xilinx-workspace/LabProject/cu_tb_isim_beh.exe" -prj "C:/Users/Rezaie/Xilinx-workspace/LabProject/cu_tb_beh.prj" "work.cu_tb" "work.glbl" 

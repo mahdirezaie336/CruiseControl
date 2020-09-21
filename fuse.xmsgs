@@ -5,7 +5,25 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Rezaie/Xilinx-workspace/LabProject/JK_FF.v" Line 32: Redeclaration of ansi port <arg fmt="%s" index="1">q</arg> is not allowed
+</msg>
+
 <msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Rezaie/Xilinx-workspace/LabProject/D_FF.v" Line 31: Redeclaration of ansi port <arg fmt="%s" index="1">q</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="835" delta="unknown" >"C:/Users/Rezaie/Xilinx-workspace/LabProject/control_unit.v" Line 42: Too many parameters for module instance <arg fmt="%s" index="1">r0</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"C:/Users/Rezaie/Xilinx-workspace/LabProject/control_unit.v" Line 59: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Rezaie/Xilinx-workspace/LabProject/eight_bit_comparator.v" Line 32: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">in_g</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Rezaie/Xilinx-workspace/LabProject/ALU.v" Line 37: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Rezaie/Xilinx-workspace/LabProject/control_unit.v" Line 59: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">load</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">65</arg>-bit.
 </msg>
 
 </messages>
