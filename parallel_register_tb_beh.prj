@@ -1,4 +1,0 @@
-verilog work "D_FF.v"
-verilog work "eight_bit_parallel_register.v"
-verilog work "parallel_register_tb.v"
-verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
